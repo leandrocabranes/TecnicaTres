@@ -20,10 +20,10 @@
 .inscripcion {
   padding: 20px;
   text-align: center;
-  background-color: #E8EAF6; }
+  background-color: #EFEBE9; }
   .inscripcion label {
     font-size: 1.4em;
-    color: #1A237E; }
+    color: #3E2723; }
 
 .error {
   color: #F00; }
@@ -43,11 +43,10 @@
   color: #FFF;
   background-color: #FFA000;
   border-style: solid;
-  transition: background-color 0.3s, border-color 0.3s, border-radius 0.3s; }
+  transition: background-color 0.3s, border-color 0.3s; }
   .boton:hover {
     background-color: #FF6F00;
-    border-color: #FF6F00;
-    border-radius: 12px; }
+    border-color: #FF6F00; }
 
 * {
   margin: 0;
@@ -56,7 +55,7 @@
 
 body {
   font-family: "Hind", sans-serif;
-  background-color: #C5CAE9; }
+  background-color: #D7CCC8; }
 
 h1 {
   font-family: "Montserrat", sans-serif; }
@@ -81,7 +80,7 @@ h1 {
 
 .navbar-personal {
   z-index: 9999;
-  background-color: #3F51B5;
+  background-color: #795548;
   box-shadow: 0px 2px 5px #333;
   border-radius: 0px; }
   .navbar-personal a {
@@ -92,33 +91,33 @@ h1 {
 .navbar-nav > li > a {
   transition: background-color 0.3s; }
   .navbar-nav > li > a:hover {
-    background-color: #1A237E; }
+    background-color: #3E2723; }
 
 .nav .open > a:focus {
-  background-color: #283593; }
+  background-color: #4E342E; }
 .nav > li > a:focus {
-  background-color: #1A237E; }
+  background-color: #3E2723; }
 
 .dropdown-menu {
-  background-color: #283593; }
+  background-color: #4E342E; }
   .dropdown-menu > li > a {
     color: #FFF;
     transition: background-color 0.3s; }
     .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
       color: #FFF;
       text-decoration: none;
-      background-color: #1A237E; }
+      background-color: #3E2723; }
 
 .navbar-toggle {
   border-width: 2px;
-  border-color: #FFC400; }
+  border-color: #FF9100; }
 
 .icon-bar {
-  background-color: #FFC400; }
+  background-color: #FF9100; }
 
 .navbar-header > a {
   font-size: 2em;
-  color: #FFC400; }
+  color: #FF9100; }
 
 /* Articulos y cajas vvv */
 .articulos {
@@ -134,13 +133,13 @@ h1 {
   padding: 14px;
   border-bottom-style: solid;
   border-width: 20px;
-  border-color: #FFB300;
-  background-color: rgba(26, 35, 126, 0.8); }
+  border-color: #FB8C00;
+  background-color: #3E2723; }
 
 /* Footer y sus cajas vvv */
 .pie {
   margin-top: 30px;
-  background-color: #1A237E;
+  background-color: #3E2723;
   box-shadow: 0px -2px 5px #333; }
   .pie li {
     list-style: none;
