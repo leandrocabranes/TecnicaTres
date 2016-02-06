@@ -1,0 +1,125 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat|Hind)
+@import seccion
+@import signup
+
+$fuente-prim: 'Montserrat', sans-serif
+$fuente-alt: 'Hind', sans-serif
+$color-blanco: #FFF
+$color-fondo: #C5CAE9
+$color-primario: #3F51B5
+$color-prim2: #1A237E
+$color-prim3: #283593
+$color-alt1: #FFB300
+$color-alt2: #FFC400
+
+*
+	margin: 0
+	padding: 0
+	border-radius: 0
+
+body
+	font-family: $fuente-alt
+	background-color: $color-fondo
+
+h1
+	font-family: $fuente-prim
+
+/* Cabecera vvv */
+.cabecera
+	background: url(cabecera.jpg)
+	font-family: $fuente-prim
+	text-align: center
+	color: $color-blanco
+	height: 300px
+	padding: 7%
+	h1
+		font-size: 5em
+
+.affix
+	top: 0
+	width: 100%
+
+.affix + .container-fluid
+	padding-top: 70px
+
+.navbar-personal
+	z-index: 9999
+	background-color: $color-primario
+	box-shadow: 0px 2px 5px #333
+	border-radius: 0px
+	a
+		font-size: 1.4em
+		font-family: $fuente-prim
+		color: #FFF
+
+.navbar-nav
+	& > li
+		& > a
+			transition: background-color 0.3s
+			&:hover
+				background-color: $color-prim2
+
+.nav
+	.open
+		& > a
+			&:focus
+				background-color: $color-prim3
+	& > li
+		& > a
+			&:focus
+				background-color: $color-prim2
+
+.dropdown-menu
+	background-color: $color-prim3
+	& > li
+		& > a
+			color: $color-blanco
+			transition: background-color 0.3s
+
+			&:hover, &:focus
+				color: $color-blanco
+				text-decoration: none
+				background-color: $color-prim2  //change color of links in drop down here
+
+.navbar-toggle
+	border-width: 2px
+	border-color: $color-alt2
+
+.icon-bar
+	background-color: $color-alt2
+
+.navbar-header
+	& > a
+		font-size: 2em
+		color: $color-alt2
+
+/* Articulos y cajas vvv*/
+.articulos
+	margin-top: 20px
+	color: $color-blanco
+	h1
+		font-family: $fuente-prim
+		text-align: center
+	.row
+		margin-bottom: 20px
+
+.articulos-caja
+	padding: 14px
+	border-bottom-style: solid
+	border-width: 20px
+	border-color: $color-alt1
+	background-color: rgba(26, 35, 126, 0.8)
+
+/* Footer y sus cajas vvv */
+.pie
+	margin-top: 30px
+	background-color: $color-prim2
+	box-shadow: 0px -2px 5px #333
+	li
+		list-style: none
+		line-height: 2em
+
+.pie-caja
+	color: $color-blanco
+	padding: 0 30px 20px
+	text-align: center

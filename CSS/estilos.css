@@ -1,0 +1,154 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat|Hind);
+.presentacion {
+  color: #FFF;
+  font-family: "Montserrat", sans-serif; }
+
+.hyperv {
+  color: #FFD54F;
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none; }
+  .hyperv:hover {
+    color: #FFC107;
+    text-decoration: none; }
+  .hyperv:visited {
+    color: #FFC107;
+    text-decoration: none; }
+
+.formulario {
+  color: #000; }
+
+.inscripcion {
+  padding: 20px;
+  text-align: center;
+  background-color: #E8EAF6; }
+  .inscripcion label {
+    font-size: 1.4em;
+    color: #1A237E; }
+
+.error {
+  color: #F00; }
+
+.texto {
+  border-style: none;
+  border-radius: 4px;
+  height: 30px;
+  font-size: 1.2em;
+  text-align: center; }
+
+.boton {
+  font-family: "Montserrat", sans-serif;
+  padding: 10px 20px;
+  border-color: #FFA000;
+  border-radius: 3px;
+  color: #FFF;
+  background-color: #FFA000;
+  border-style: solid;
+  transition: background-color 0.3s, border-color 0.3s, border-radius 0.3s; }
+  .boton:hover {
+    background-color: #FF6F00;
+    border-color: #FF6F00;
+    border-radius: 12px; }
+
+* {
+  margin: 0;
+  padding: 0;
+  border-radius: 0; }
+
+body {
+  font-family: "Hind", sans-serif;
+  background-color: #C5CAE9; }
+
+h1 {
+  font-family: "Montserrat", sans-serif; }
+
+/* Cabecera vvv */
+.cabecera {
+  background: url(cabecera.jpg);
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  color: #FFF;
+  height: 300px;
+  padding: 7%; }
+  .cabecera h1 {
+    font-size: 5em; }
+
+.affix {
+  top: 0;
+  width: 100%; }
+
+.affix + .container-fluid {
+  padding-top: 70px; }
+
+.navbar-personal {
+  z-index: 9999;
+  background-color: #3F51B5;
+  box-shadow: 0px 2px 5px #333;
+  border-radius: 0px; }
+  .navbar-personal a {
+    font-size: 1.4em;
+    font-family: "Montserrat", sans-serif;
+    color: #FFF; }
+
+.navbar-nav > li > a {
+  transition: background-color 0.3s; }
+  .navbar-nav > li > a:hover {
+    background-color: #1A237E; }
+
+.nav .open > a:focus {
+  background-color: #283593; }
+.nav > li > a:focus {
+  background-color: #1A237E; }
+
+.dropdown-menu {
+  background-color: #283593; }
+  .dropdown-menu > li > a {
+    color: #FFF;
+    transition: background-color 0.3s; }
+    .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+      color: #FFF;
+      text-decoration: none;
+      background-color: #1A237E; }
+
+.navbar-toggle {
+  border-width: 2px;
+  border-color: #FFC400; }
+
+.icon-bar {
+  background-color: #FFC400; }
+
+.navbar-header > a {
+  font-size: 2em;
+  color: #FFC400; }
+
+/* Articulos y cajas vvv */
+.articulos {
+  margin-top: 20px;
+  color: #FFF; }
+  .articulos h1 {
+    font-family: "Montserrat", sans-serif;
+    text-align: center; }
+  .articulos .row {
+    margin-bottom: 20px; }
+
+.articulos-caja {
+  padding: 14px;
+  border-bottom-style: solid;
+  border-width: 20px;
+  border-color: #FFB300;
+  background-color: rgba(26, 35, 126, 0.8); }
+
+/* Footer y sus cajas vvv */
+.pie {
+  margin-top: 30px;
+  background-color: #1A237E;
+  box-shadow: 0px -2px 5px #333; }
+  .pie li {
+    list-style: none;
+    line-height: 2em; }
+
+.pie-caja {
+  color: #FFF;
+  padding: 0 30px 20px;
+  text-align: center; }
+
+/*# sourceMappingURL=estilos.css.map */

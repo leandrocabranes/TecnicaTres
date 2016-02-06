@@ -1,0 +1,40 @@
+$color-fondoform: #E8EAF6
+$color-boton1: #FFA000
+$color-boton2: #FF6F00
+$color-prim2: #1A237E
+$color-blanco: #FFF
+
+.formulario
+	color: #000
+
+.inscripcion
+	padding: 20px
+	text-align: center
+	background-color: $color-fondoform
+	label
+		font-size: 1.4em
+		color: $color-prim2
+
+.error
+	color: #F00
+
+.texto
+	border-style: none
+	border-radius: 4px
+	height: 30px
+	font-size: 1.2em
+	text-align: center
+
+.boton
+	font-family: 'Montserrat', sans-serif
+	padding: 10px 20px
+	border-color: $color-boton1
+	border-radius: 3px
+	color: $color-blanco
+	background-color: $color-boton1
+	border-style: solid
+	transition: background-color 0.3s, border-color 0.3s, border-radius 0.3s
+	&:hover
+		background-color: $color-boton2
+		border-color: $color-boton2
+		border-radius: 12px
