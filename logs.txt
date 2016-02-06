@@ -1,0 +1,29 @@
+[33mcommit 9ab0081169a655b4cb3f513c644d67b263280225[m
+Author: Lean <leandrocabranes@gmail.com>
+Date:   Sat Feb 6 15:26:47 2016 -0300
+
+    Se actulizaron los colores en los formularios
+
+[33mcommit 29d326874159438fafe386a0c7faa567a50da2e1[m
+Author: Lean <leandrocabranes@gmail.com>
+Date:   Sat Feb 6 01:49:50 2016 -0300
+
+    Cambio a marron y naranja
+
+[33mcommit 322b132bbed90007fe95c6acd5c4f170d7b63642[m
+Author: Lean <leandrocabranes@gmail.com>
+Date:   Sat Feb 6 01:44:32 2016 -0300
+
+    Se arreglo el color del articulo que no estaba incluido
+
+[33mcommit 7ce8afa74592f806974595d80dbcbd43bd832c51[m
+Author: Lean <leandrocabranes@gmail.com>
+Date:   Sat Feb 6 01:41:53 2016 -0300
+
+    Cambio a cyan y rosado
+
+[33mcommit 8aca43b4cac6947c60c104ec62976c4b7c03e0f8[m
+Author: Lean <leandrocabranes@gmail.com>
+Date:   Sat Feb 6 01:03:47 2016 -0300
+
+    Iniciamos
