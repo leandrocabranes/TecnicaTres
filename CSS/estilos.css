@@ -20,10 +20,10 @@
 .inscripcion {
   padding: 20px;
   text-align: center;
-  background-color: #EFEBE9; }
+  background-color: #E8EAF6; }
   .inscripcion label {
     font-size: 1.4em;
-    color: #3E2723; }
+    color: #1A237E; }
 
 .error {
   color: #F00; }
@@ -38,15 +38,15 @@
 .boton {
   font-family: "Montserrat", sans-serif;
   padding: 10px 20px;
-  border-color: #FFA000;
+  border-color: #303F9F;
   border-radius: 3px;
   color: #FFF;
-  background-color: #FFA000;
+  background-color: #303F9F;
   border-style: solid;
   transition: background-color 0.3s, border-color 0.3s; }
   .boton:hover {
-    background-color: #FF6F00;
-    border-color: #FF6F00; }
+    background-color: #283593;
+    border-color: #283593; }
 
 * {
   margin: 0;
@@ -55,7 +55,7 @@
 
 body {
   font-family: "Hind", sans-serif;
-  background-color: #D7CCC8; }
+  background-color: #FFF; }
 
 h1 {
   font-family: "Montserrat", sans-serif; }
@@ -80,7 +80,7 @@ h1 {
 
 .navbar-personal {
   z-index: 9999;
-  background-color: #795548;
+  background-color: #3F51B5;
   box-shadow: 0px 2px 5px #333;
   border-radius: 0px; }
   .navbar-personal a {
@@ -91,35 +91,34 @@ h1 {
 .navbar-nav > li > a {
   transition: background-color 0.3s; }
   .navbar-nav > li > a:hover {
-    background-color: #3E2723; }
+    background-color: #1A237E; }
 
 .nav .open > a:focus {
-  background-color: #4E342E; }
+  background-color: #3949AB; }
 .nav > li > a:focus {
-  background-color: #3E2723; }
+  background-color: #1A237E; }
 
 .dropdown-menu {
-  background-color: #4E342E; }
+  background-color: #3949AB; }
   .dropdown-menu > li > a {
     color: #FFF;
     transition: background-color 0.3s; }
     .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
       color: #FFF;
       text-decoration: none;
-      background-color: #3E2723; }
+      background-color: #1A237E; }
 
 .navbar-toggle {
   border-width: 2px;
-  border-color: #FF9100; }
+  border-color: #FFC400; }
 
 .icon-bar {
-  background-color: #FF9100; }
+  background-color: #FFC400; }
 
 .navbar-header > a {
   font-size: 2em;
-  color: #FF9100; }
+  color: #FFC400; }
 
-/* Articulos y cajas vvv */
 .articulos {
   margin-top: 20px;
   color: #FFF; }
@@ -133,13 +132,19 @@ h1 {
   padding: 14px;
   border-bottom-style: solid;
   border-width: 20px;
-  border-color: #FB8C00;
-  background-color: #3E2723; }
+  border-color: #FFB300;
+  background-color: #3949AB;
+  box-shadow: 0px 0px 5px #333;
+  z-index: -1;
+  transition: box-shadow 0.2s, transform 0.2s, z-index 0.2s; }
+  .articulos-caja:hover {
+    z-index: 2;
+    transform: scale(1.01);
+    box-shadow: 0px 0px 20px #000; }
 
-/* Footer y sus cajas vvv */
 .pie {
   margin-top: 30px;
-  background-color: #3E2723;
+  background-color: #1A237E;
   box-shadow: 0px -2px 5px #333; }
   .pie li {
     list-style: none;

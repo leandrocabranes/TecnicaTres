@@ -6,17 +6,17 @@ $fuente-prim: 'Montserrat', sans-serif
 $fuente-alt: 'Hind', sans-serif
 $color-blanco: #FFF
 // 100
-$color-fondo: #D7CCC8
+$color-fondo: #FFF
 // 500
-$color-primario: #795548
+$color-primario: #3F51B5
 // 900
-$color-prim2: #3E2723
-// 800
-$color-prim3: #4E342E
+$color-prim2: #1A237E
+// 600
+$color-prim3: #3949AB
 // Sec 600
-$color-alt1: #FB8C00
+$color-alt1: #FFB300
 // Sec A400
-$color-alt2: #FF9100
+$color-alt2: #FFC400
 
 *
 	margin: 0
@@ -100,7 +100,7 @@ h1
 		font-size: 2em
 		color: $color-alt2
 
-/* Articulos y cajas vvv*/
+// Articulos y cajas vvv
 .articulos
 	margin-top: 20px
 	color: $color-blanco
@@ -115,9 +115,16 @@ h1
 	border-bottom-style: solid
 	border-width: 20px
 	border-color: $color-alt1
-	background-color: $color-prim2
+	background-color: $color-prim3
+	box-shadow: 0px 0px 5px #333
+	z-index: -1
+	transition: box-shadow 0.2s, transform 0.2s, z-index 0.2s
+	&:hover
+		z-index: 2
+		transform: scale(1.01)
+		box-shadow: 0px 0px 20px #000
 
-/* Footer y sus cajas vvv */
+// Footer y sus cajas vvv
 .pie
 	margin-top: 30px
 	background-color: $color-prim2
